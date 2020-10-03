@@ -1,0 +1,19 @@
+/* 	Change backgroumd color
+	Change fonts
+	EXTRA CREDIT add a second CSS page to add style to your CSS pages
+
+	 */
+body { 
+	background-color: #8B0000;
+	color: #7FFFD4;
+ }
+
+ h1 {
+ 	color: #00FFFF;
+ 	font-family: sans-serif;
+ }
+
+ p {
+ 	font-family: Verdana;
+ 	border-style: double;
+ }
