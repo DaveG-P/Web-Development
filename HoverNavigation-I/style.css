@@ -1,0 +1,73 @@
+h1{
+	font-family: Verdana, sans-serif;
+	font-size: 90px;
+	color: white;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px;
+
+}
+
+body {
+	background-color: #D8A916;
+	font-family: Verdana, sans-serif;
+}
+
+footer {
+	text-align: center; 
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	color: white;
+	margin-top: 600px
+
+	}
+
+#nav {
+	float: left;
+	padding: 20px 0px 0px 60px;
+	font-size: 30px;
+	list-style-type: none;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+#nav li {
+	display: block;
+	padding: 0 0 0 30px;
+}
+
+#nav li a {
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+
+	font-weight: bold;
+
+	color: #ccc;
+	color: rgba(255, 255, 255, 0.7);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+
+	-webkit-border-bottom-right-radius: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	-moz-border-bottom-right-radius: 25px;
+	-moz-border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#nav li a:hover, #nav li a:focus {
+	color: white;
+	background: rgba(162, 0, 0, 0.4);
+	font-size: 35px;
+}
