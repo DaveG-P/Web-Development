@@ -1,0 +1,283 @@
+body {
+	background-color: #F0FF00;
+}
+
+h1 {
+	/*Fiixed position of banner*/
+	position: fixed;
+    left: 522px;
+    top: 320px;
+}
+
+span.worst {
+	font-size: 120%;
+	color: red;
+
+}
+
+
+/*Roataiing images */
+.rotate65 {
+	-webkit-transform:rotate(65deg);  
+ 	-moz-transform: rotate(65deg);  
+  	-ms-transform: rotate(65deg);  
+  	-o-transform: rotate(65deg);  
+ 	transform: rotate(65deg);  
+}
+.rotate90 {
+	-webkit-transform:rotate(90deg);  
+ 	-moz-transform: rotate(90deg);  
+  	-ms-transform: rotate(90deg);  
+  	-o-transform: rotate(90deg);  
+ 	transform: rotate(90deg);  
+
+}
+
+.rotate140 {
+	-webkit-transform:rotate(140deg);  
+ 	-moz-transform: rotate(140deg);  
+  	-ms-transform: rotate(140deg);  
+  	-o-transform: rotate(140deg);  
+ 	transform: rotate(140deg);  
+}
+.rotate180 {
+	-webkit-transform:rotate(180deg);  
+ 	-moz-transform: rotate(180deg);  
+  	-ms-transform: rotate(180deg);  
+  	-o-transform: rotate(180deg);  
+ 	transform: rotate(180deg);  
+}
+
+#box1 {
+	background-color: #23FF00;
+	border-style: dotted;
+	border-color: #00FFE8;
+	border-width: 50px;
+	padding: 25px;
+	/*Box dimensionx*/
+	width: 990px;
+  	height: 320px;
+
+	position: relative;
+  	top: 10px;
+  	left: 20px;
+}
+
+#box2 {
+	background-color: #00B6FF;
+	border-style: dashed;
+	border-color: #D100FF;
+	border-width: 30px;
+	padding: 50px;
+
+	width: 500px;
+  	height: 600px;
+
+  	position: static;
+  	top: 50px;
+  	left: 170px;
+}
+
+#box3 {
+	background-color: #FF0000;
+	border-style: solid;
+	border-color: #00FFCD;
+	border-width: 80px;
+	padding: 20px;
+
+	width: 100px;
+  	height: 900px;
+
+  	float: left;
+  	top: 200px;
+  	left: 900px;
+}
+
+#box4 {
+	background-color: #0013FF;
+	border-style: double;
+	border-color: #9cdaff;
+	border-width: 80px;
+	padding: 65px;
+
+	width: 800px;
+  	height: 800px;
+
+  	position: relative;
+  	top: 200px;
+  	left: 1600px;
+}
+
+#box5 {
+	background-color: #C900FF;
+	border-style: dotted;
+	border-color: #FFFF00;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 1200px;
+  	height: 720px;
+
+  	position: absolute;
+  	top:1000px;
+  	left: 800px;
+  }
+
+
+#box6 {
+	background-color: #00FF6C;
+	border-style: groove;
+	border-color: #ffd265;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 600px;
+  	height: 720px;
+
+  	position: absolute;
+  	top: 200px;
+  	left: 1700px;
+
+}
+
+#box7 {
+	background-color: #FF00AE;
+	border-style: double;
+	border-color: #FF0000;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 600px;
+  	height: 320px;
+
+  	position: absolute;
+  	top: 10px;
+  	left: 800px;
+
+}
+
+#box8 {
+	background-color: #FF9E00;
+	border-style: dotted;
+	border-color: #00F7FF;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 600px;
+  	height: 320px;
+
+  	position: absolute;
+  	top: 800px;
+  	left: 1900px;
+
+}
+
+#box9 {
+	background-color: #00F7FF;
+	border-style: dotted;
+	border-color: #ffd265;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 600px;
+  	height: 320px;
+
+  	position: absolute;
+  	top: 1200px;
+  	left: 2400px;
+
+}
+
+#box10 {
+	background-color: #ffff00;
+	border-style: double;
+	border-color: #FF00D8;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 900px;
+  	height: 220px;
+
+  	position: absolute;
+  	top: 1600px;
+  	left: 1600px;
+
+}
+
+#box11 {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #FF00D8;
+	border-width: 20px;
+	padding: 90px;
+
+	width: 900px;
+  	height: 1020px;
+
+  	position: absolute;
+  	top: 500px;
+  	left: 3600px;
+}
+
+#box12 {
+	background-color: #ff0080;
+	border-style: double;
+	border-color: #FF00D8;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 600px;
+  	height: 920px;
+
+  	position: absolute;
+  	top: 50px;
+  	left: 2800px;
+}
+
+#box13 {
+	background-color: #000000;
+	border-style: dotted;
+	border-color: #2DFF03;
+	border-width: 20px;
+	padding: 30px;
+
+	width: 900px;
+  	height: 1000px;
+
+  	position: absolute;
+  	top: 1700px;
+  	left: 2400px;
+}
+
+#box14 {
+	background-color: #03FFAB;
+	border-style: groove;
+	border-color: #2F7012;
+	border-width: 20px;
+	padding: 300px;
+
+	width: 900px;
+  	height: 900px;
+
+  	position: absolute;
+  	top: 40px;
+  	left: 4300px;
+}
+
+#box15 {
+	background-color: #FFFFFF;
+	border-style: double;
+	border-color: #FF00D8;
+	border-width: 200px;
+	padding: 30px;
+
+	width: 600px;
+  	height: 920px;
+
+  	position: absolute;
+  	top: 1600px;
+  	left: 500px;
+}
+	
+
+
