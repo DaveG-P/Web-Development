@@ -1,0 +1,137 @@
+body {
+	background-color: #393b44;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center; 
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	color: #ffd31d;
+	margin-top: 100px;
+	
+}
+
+h1{
+	font-family: Didot;
+	font-size: 90px;
+	color: white;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px;
+
+}
+
+nav {
+	margin: 0 auto;
+	width: 420px;
+}
+
+nav ul {
+	text-align: center;
+	font-family: Noto Sans, sans-serif;
+	font-size: 18px;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	height: 20px;
+	width: 45px;
+	margin: 0 65px 0 10px;
+	white-space: nowrap;
+}
+
+/*Border  Properties */
+#button1 {
+	background-color: #0bd3d3;
+	padding: 15px 10px;
+	border-radius: 40%;
+
+}
+
+#button1:hover {
+	background-color: #f0ffba;
+	-webkit-transition: background 0.3s ease 0.5s;
+	-moz-transition: background 0.3s ease 0.5s;
+	-o-transition: background 0.3s ease 0.5s;
+	transition: background 0.3s ease 0.5s;
+
+}
+
+
+/* */
+#button2{
+	background-color: #f890e7;
+	border:5px double #ecf542;
+	padding: 15px 10px;
+	-webkit-transition: background 0.3s ease-out 0.5s;
+	-moz-transition: background 0.3s ease 0.5s;
+	-o-transition: background 0.3s ease 0.5s;
+	transition: background 0.3s ease 0.5s;
+}
+
+#button2:hover {
+	background-color: #bfbaff;
+
+}
+
+/* */
+#button3 {
+	background-color: #63f786;
+	padding: 15px 10px;
+	border-radius: 100%;
+	border:5px solid white;
+	-webkit-transition: border 02s linear;
+	-moz-transition: background 0.3s ease, color 02s linear;
+	-o-transition: background 0.3s ease, color 02s linear;
+	transition: background 0.3s ease, color 02s linear;
+}
+
+#button3:hover, 
+#button3:focus  {
+	color: #63f786;	
+	background: #42f5e6;
+	opacity: .9;
+	border:10px dotted white;
+
+}
+
+article {
+	position: relative;
+	margin: auto;
+	padding: 2px 20px;
+	top: 20px;
+	background-color: white;
+	border: solid 5px #ffd31d;
+	height: 500px;
+	width: 880px;
+}
+
+
+
+section {
+	background-color: ;
+	border; double 4px white;
+	padding: 10px;
+	margin: 5px 10px;
+}
+
+section h3 {
+	font-family: sans-serif;
+	color: black;
+	margin-top: 10px;
+	font-size: 22px;
+	line-height: 14px;
+	margin: 10px 0 0 0;
+	padding: 20px 5px 0 20px;
+}
+
+section p {
+	color: black;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	line-height: 22px;
+}
