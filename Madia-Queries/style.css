@@ -1,0 +1,104 @@
+/* 
+<! To DO:
+- Media Query for 960px
+- Media Query between 400px & 600px
+- Media Query for Print
+*/
+body {
+
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica", san-serif;
+	font-weight: 100;
+	box-sizing: border-box;
+}
+
+header {
+
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 150px;
+	padding: 50px 0px;
+	background-color: #69b832;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+nav {
+
+	clear: both;
+
+}
+
+nav li {
+
+	display: inline-block;
+	color: #333;
+	padding: 20px;
+	list-style: none;
+}
+
+section {
+
+	float: left;
+	font-weight: 300;
+	padding: 30px;
+	width: 50%;
+	font-size: 14px;
+	color: #7d7d7d;
+	box-sizing: border-box;
+
+}
+
+footer {
+
+	text-align: center;
+	background-color: #43a6e8;
+	border: 1px solid #d0d0d0;
+	clear: both;
+	padding: 30px 60px;
+}
+
+/* Media Query */
+
+@media (min-width: 960px) {
+
+	section {
+		width: 50%;
+	}
+	
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+
+	header {
+		background-color: #e8437a;
+	}
+
+	section {
+		width: 100%;
+		font-size: 22px;
+	}
+
+	footer {
+		background-color: #e8e343;
+	}
+
+}
+
+
+@media print {
+	nav, footer {
+		display: none;
+	}
+
+	a {
+
+		text-decoration: none;
+		color: inherit;
+	}
+}
